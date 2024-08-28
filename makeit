@@ -1,0 +1,6 @@
+cp --preserve  /mnt/Source/QT/QtBPQAPRS/QtBPQAPRS.* ./
+cp --preserve  /mnt/Source/QT/QtBPQAPRS/APRSCode.c ./
+cp --preserve  /mnt/Source/QT/QtBPQAPRS/main.cpp ./
+
+qmake
+make -j4
